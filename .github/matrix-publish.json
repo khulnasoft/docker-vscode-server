@@ -1,5 +1,5 @@
 {
-  "name": ["template"],
+  "name": ["vscode-server"],
   "platforms": ["linux/amd64,linux/arm64"],
   "registry": [
     { "id": "GITHUB", "url": "ghcr.io" },

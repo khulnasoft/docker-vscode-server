@@ -1,8 +1,8 @@
 version: 2.0.0
 
-id: template-docker
+id: vscode-server
 
 about:
-  title: Docker Template
-  description: a template for Docker projects
-  repository: khulnasoft/template-docker
+  title: VS Code Server Docker Image
+  description: a Docker image for VS Code Server
+  repository: khulnasoft/docker-vscode-server
