@@ -1,0 +1,19 @@
+# --------------------------------------------- #
+# Note: this file originates in template-docker #
+# --------------------------------------------- #
+
+name: push-readme
+
+on:
+  workflow_dispatch:
+
+  push:
+    branches: [ master ]
+    paths: [ README.md ]
+
+permissions: read-all
+
+jobs:
+  main:
+    uses: khulnasoft/actions/.github/workflows/push-docker-readme.yml@master
+    secrets: inherit

@@ -1,0 +1,30 @@
+# $about.title$
+
+$about.description$
+
+[![license][license-img]][license-url]
+[![release][release-img]][release-url]
+[![size][size-img]][size-url]
+[![docker][docker-img]][docker-url]
+[![github][github-img]][github-url]
+
+$body$
+
+----
+> Author: [KhulnaSoft Ltd](https://www.khulnasoft.com/) &bull;
+> Twitter: [@khulnasoft](https://twitter.com/khulnasoft)
+
+[license-url]: LICENSE
+[license-img]: https://badgen.net/github/license/$about.repository$
+
+[release-url]: https://github.com/$about.repository$/releases
+[release-img]: https://badgen.net/github/release/$about.repository$
+
+[size-url]: https://hub.docker.com/r/khulnasoft/$id$
+[size-img]: https://badgen.net/docker/size/khulnasoft/$id$?label=image%20size
+
+[docker-url]: https://hub.docker.com/r/khulnasoft/$id$
+[docker-img]: https://badgen.net/badge/icon/docker%20hub?icon=docker&label
+
+[github-url]: https://github.com/users/khulnasoft/packages/container/package/$id$
+[github-img]: https://badgen.net/badge/icon/github%20registry?icon=github&label
